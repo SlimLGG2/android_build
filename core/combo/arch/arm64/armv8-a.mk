@@ -1,3 +1,4 @@
+
 arch_variant_cflags :=
 
 # If the chip uses a53 cores, enable the errata workarounds
