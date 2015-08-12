@@ -349,6 +349,7 @@ def main():
 
     for repository in repositories:
         repo_name = repository['name']
+
         if not (repo_name.startswith("device_") and
                 repo_name.endswith("_" + device)):
             continue
